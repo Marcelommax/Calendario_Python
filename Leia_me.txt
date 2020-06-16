@@ -1,0 +1,14 @@
+O bloco de código a seguir é calculado através da importação de dias de cada mês:
+
+
+import calendar
+monthRange = calendar.monthrange(2016,9)
+print(monthRange)
+Executar os resultados de saída do código acima:
+
+(3, 30)
+
+
+A saída é um tuplo, o primeiro elemento é o primeiro dia do mês correspondente ao dia da semana (0-6), 
+o segundo elemento é o número de dias do mês. 
+Exemplos de saída acima significa o primeiro dia de setembro 2016 é quinta-feira, o volume mensal de 30 dias.
