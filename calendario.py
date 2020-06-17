@@ -1,8 +1,14 @@
 import calendar
+from datetime import date
 
-ano = 2020
+data = date.today()
 
-mes = 6
+print(data)
+
+ano = int('{}'.format(data.year))
+
+mes = int('{}'.format(data.month))
+
 
 #calendario = calendar.month(ano, mes) 
 
