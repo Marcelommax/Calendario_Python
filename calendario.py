@@ -2,9 +2,12 @@ import calendar
 
 ano = 2020
 
-mes = 7
+mes = 6
 
-print(calendar.month(ano, mes)) 
+calendario = calendar.month(ano, mes) 
+
+print(calendario.split())
+
 
 monthRange = calendar.monthrange(ano, mes)
 print(monthRange)
