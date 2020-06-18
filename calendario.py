@@ -10,13 +10,6 @@ ano = int('{}'.format(data.year))
 mes = int('{}'.format(data.month))
 
 
-#calendario = calendar.month(ano, mes) 
-
-#fatiar = calendario.split()
-
-#print(fatiar[9:-1])
-
-
 monthRange = calendar.monthrange(ano, mes)
 print(monthRange)
 
